@@ -1,0 +1,1 @@
+# vercel-lighthouse-action
