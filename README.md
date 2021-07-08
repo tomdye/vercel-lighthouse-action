@@ -12,6 +12,10 @@ An example budget can be found in [vercel-lighthouse-action/lighthouse/budget](h
 ![Alt Text](.github/images/budget.png)
 ![Alt Text](.github/images/assertions.png)
 
+### Usage
+Move the `workflows` and `lighthouse` directories into your repository `.github` directory.
+Generate and save the required secrets in your github repository settings.
+
 ### Action workflow
 1. Deploy the PR using vercel-action
 2. Run three lighthouse audits against the vercel preview url
